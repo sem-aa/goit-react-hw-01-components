@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.statistics {
+  margin-top: 20px;
+}
+
+.statList {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.title {
+  color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  width: 200px;
+  height: 60px;
+}
+
+.item {
+  color: white;
+  font-size: medium;
+  padding: 10px;
+  background-color: blue;
+}
+
+.lebel {
+  display: block;
+  text-align: center;
+}
+
+.percentage {
+  display: block;
+  text-align: center;
+}

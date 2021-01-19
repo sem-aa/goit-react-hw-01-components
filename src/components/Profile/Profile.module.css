@@ -10,7 +10,7 @@
   margin-right: auto;
 
   border-radius: 1%;
-  border: 1px solid black;
+  border: 1px solid grey;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -48,6 +48,8 @@
 }
 
 .stats {
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: grey;
   list-style: none;
   display: flex;
@@ -55,6 +57,7 @@
 }
 
 .label {
+  font-size: 10px;
   display: block;
   text-align: center;
   margin-left: auto;
@@ -62,6 +65,8 @@
 }
 
 .quantity {
+  font-size: 14px;
+  font-weight: bold;
   display: block;
   text-align: center;
   width: inherit;

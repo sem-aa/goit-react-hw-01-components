@@ -1,0 +1,38 @@
+.friendsList {
+  background-color: red;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  width: 200px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.item:first-child {
+  margin-top: 10px;
+}
+
+.avatar {
+  border: 1px solid black;
+  border-radius: 4%;
+  margin: 5px;
+}
+
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.statusOff {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
