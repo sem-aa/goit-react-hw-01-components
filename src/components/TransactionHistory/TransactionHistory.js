@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import s from "./TransactionHistory.module.css";
 
 export default function TransactionHistory({ items }) {
@@ -23,3 +24,14 @@ export default function TransactionHistory({ items }) {
     </table>
   );
 }
+
+TransactionHistory.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      key: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.string.isRequired,
+      currency: PropTypes.string.isRequired,
+    })
+  ),
+};

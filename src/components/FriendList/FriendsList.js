@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import s from "./FriendsList.module.css";
 
 export default function FriendsList({ items }) {
@@ -20,3 +21,14 @@ export default function FriendsList({ items }) {
     </ul>
   );
 }
+
+FriendsList.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      key: PropTypes.number.isRequired,
+      isOnline: PropTypes.bool.isRequired,
+      avatar: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+    })
+  ),
+};
